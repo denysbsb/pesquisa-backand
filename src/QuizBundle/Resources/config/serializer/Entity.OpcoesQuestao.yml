@@ -1,0 +1,5 @@
+QuizBundle\Entity\OpcoesQuestao:
+    exclusion_policy: none
+    properties:
+        pesquisa:
+            exclude: true

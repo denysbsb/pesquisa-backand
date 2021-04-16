@@ -1,0 +1,11 @@
+quiz_api_participante:
+    type:         rest
+    resource:     "@QuizBundle/Controller/ParticipanteController.php"
+
+quiz_api_pesquisador:
+    type:         rest
+    resource:     "@QuizBundle/Controller/PesquisadorController.php"
+
+quiz_api_quiz:
+    type:         rest
+    resource:     "@QuizBundle/Controller/QuizController.php"

@@ -1,0 +1,4 @@
+services:
+    ingresso_usuario.service:
+        class: Ingresso\UsuarioBundle\Services\UsuarioService
+        arguments: ["@doctrine.orm.entity_manager", "@mailer"]

@@ -1,0 +1,4 @@
+services:
+    ingresso_evento.service:
+        class: Ingresso\EventoBundle\Services\EventoService
+        arguments: ["@doctrine.orm.entity_manager"]

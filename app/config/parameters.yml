@@ -1,0 +1,12 @@
+# This file is auto-generated during the composer install
+parameters:
+    database_host: 127.0.0.1
+    database_port: 3306
+    database_name: dbquiz
+    database_user: root
+    database_password: root
+    mailer_transport: smtp
+    mailer_host: smtp.gmail.com
+    mailer_user: mario.eugenio@gmail.com
+    mailer_password: M@rio1960
+    secret: 8b4fed15f2bd50a3c048279be2cbb30eebd7a2c0

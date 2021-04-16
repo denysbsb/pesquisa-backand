@@ -1,0 +1,1 @@
+2016-07-21 16:15:40: Warning: imagepng(007_4.png): failed to open stream: Permission denied

@@ -1,0 +1,11 @@
+ingresso_api_evento:
+    type:         rest
+    resource:     "@IngressoApiBundle/Controller/EventoController.php"
+
+ingresso_api_financeiro:
+    type:         rest
+    resource:     "@IngressoApiBundle/Controller/FinanceiroController.php"
+
+ingresso_api_usuario:
+    type:         rest
+    resource:     "@IngressoApiBundle/Controller/UsuarioController.php"

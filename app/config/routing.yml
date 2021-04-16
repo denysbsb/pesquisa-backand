@@ -1,0 +1,8 @@
+quiz:
+    resource: "@QuizBundle/Resources/config/api-routing.yml"
+    type:     rest
+    prefix:   /api
+
+NelmioApiDocBundle:
+    resource: "@NelmioApiDocBundle/Resources/config/routing.yml"
+    prefix:   /api/doc

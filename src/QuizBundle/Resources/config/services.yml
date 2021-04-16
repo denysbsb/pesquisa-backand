@@ -1,0 +1,12 @@
+services:
+    quiz.service:
+        class: QuizBundle\Services\QuizService
+        arguments: ["@doctrine.orm.entity_manager", "@participante.service", "@pesquisador.service"]
+
+    participante.service:
+            class: QuizBundle\Services\ParticipanteService
+            arguments: ["@doctrine.orm.entity_manager"]
+
+    pesquisador.service:
+                class: QuizBundle\Services\PesquisadorService
+                arguments: ["@doctrine.orm.entity_manager"]

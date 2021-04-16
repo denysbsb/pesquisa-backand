@@ -1,0 +1,4 @@
+services:
+    ingresso_financeiro.service:
+        class: Ingresso\FinanceiroBundle\Services\FinanceiroService
+        arguments: ["@doctrine.orm.entity_manager", "@circle.restclient"]
